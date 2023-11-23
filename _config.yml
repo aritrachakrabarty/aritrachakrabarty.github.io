@@ -1,0 +1,33 @@
+# Site settings
+title: Aritra Chakrabarty
+affil: Data Observatory
+general_email: aritra.astrophysics.at.gmail.com
+academic_email: #your_academic_email@univ
+
+description: > # this means to ignore newlines until "baseurl:"
+  Give a brief description of yourself, and maybe your passion/interests. It is displayed in search results.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+url: "https://arcunique.github.io" # the base hostname & protocol for your site
+
+# twitter_username: jekyllrb
+github_username: arcunique
+linkedin_username: dr-aritra-chakrabarty
+linkedin_path: dr-aritra-chakrabarty-60149077
+facebook_username: #facebook_username
+ads_path: "https://ui.adsabs.harvard.edu/search/filter_author_facet_hier_fq_author=AND&filter_author_facet_hier_fq_author=author_facet_hier%3A%221%2FChakrabarty%2C%20A%2FChakrabarty%2C%20Aritra%22&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(author_facet_hier%3A%221%2FChakrabarty%2C%20A%2FChakrabarty%2C%20Aritra%22)&p_=0&q=%20%20author%3A%22Chakrabarty%2C%20Aritra%22&sort=date%20desc%2C%20bibcode%20desc"
+gscholar_path: "https://scholar.google.com/citations?user=tSeRK7oAAAAJ&hl=en"
+rgate_path: "https://www.researchgate.net/profile/Aritra-Chakrabarty"
+
+
+# feel free to add other links here; you will have to add the SVG icon in _layouts/footer.html
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
+
+# Other options
+permalink: blog/:year/:month/:title
